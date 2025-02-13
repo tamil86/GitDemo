@@ -28,7 +28,7 @@ public class ExtentReportDemo {
 		extent = new ExtentReports();
 		extent.attachReporter(report);
 		extent.setSystemInfo("Tester", "Tamil");
-
+System.out.println("Git code merge/checkin learning");
 	}
 
 	@Test
