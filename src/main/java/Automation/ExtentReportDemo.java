@@ -16,6 +16,8 @@ public class ExtentReportDemo {
 
 	@BeforeTest
 	public void config() {
+
+System.out.println("Git code merge/checkin learning DEVELOP BRANCH");
 		// ExtentReports, ExtentSparkReporter
 		// creates reports
 		String filePath = System.getProperty("user.dir") + "\\reports\\index.html";
